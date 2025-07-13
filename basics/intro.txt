@@ -1,0 +1,38 @@
+OOP - Object Oriented Programming 
+
+1. Object Oriented Programming is about creating objects that contain both
+   data and methods.
+2. It promotes reusability and readablility.
+3. It makes the program in a structured manner.
+4. Classes and Objects are main aspects in OOP.
+5. A Class is a user defined data type which specifies the data(fields) and
+   behaviour(methods) the objects of that class will have.
+6. It is a blue print or template for creating objects.
+7. A class do not occupy memory for instance variables until an object is 
+   created.
+8. An object is an instance of class.
+9. A class can have two types of variables:
+   a. Instance variables 
+      To access these variables, we need to create an object.
+   b. Static variables 
+      We do not need to create the object to access these variables. These 
+      variables are not specific to an object. They are said to be Class 
+      variables.
+10. class key word is used to create a class. 
+    Ex: 
+    class Student {
+        String name = "Lalithendra";
+    } 
+11. An object is created using class name 
+    Ex: 
+    Student student = new Student();
+    Here,
+    -> student is the referece variable which stores the reference of the 
+       object stored in the heap memory 
+    -> Student denotes the type of the reference variable student 
+    -> new is a key word used to create the object. It allocates memory on 
+       the heap and returns the reference of the object.
+    -> Sudent() refers to the constructor of the Student class 
+    -> new Student() combinely creates the object which is stored in heap 
+       memory 
+    -> student is stored in stack memory 

@@ -2,16 +2,17 @@ Some important points:
 
 1. If the class is public, the file name must match the class name. Because,
     a) When we run 'javac FileName.java', the compiler looks for a public 
-       class named FileName. The compiler uses file names to find the 
-       public classes. If both the names don't match it is not possible 
-       to locate or load the class. 
-    b) We do not need to open the file to know whether the class is present 
-       inside the file or not. Just by seeing the file name we came to know
-       about it.
+       class named FileName. The compiler uses file names to find the public
+       classes. If the file name doesn't match the public class name, the
+       compiler will throw a compile-time error, because it cannot find the 
+       entry point for the program.  
+    b) We do not need to open the file to know the name of the class.
+       Just by seeing the file name we came to know it.
     c) Public classes are meant to be accessed from anywhere. Hence it needs 
        a clear way to locate them.
 2. If the class is package-private, there is no need to match the file name 
-   and class name. The access is within the same package, so no issue arises.
+   and class name. Because the compiler wont refer the class via file name 
+   if it is not public. It refers via binary name (package + class).
 3. Each public class should be put inside a file with same name as that of 
    the class to maintain clear file-to-class mapping. Which means no two 
    public classes should be under same file.
