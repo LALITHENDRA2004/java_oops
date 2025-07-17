@@ -1,13 +1,13 @@
-class PrivateScope {
+class PackagePrivateScope {
     static void printScope() {
-        System.out.println("This class has private scope");
+        System.out.println("This class has package-private scope");
     }
 }
 
 public class ScopesOfClasses {
     public static void main(String[] args) {
         System.out.println("This class has public scope.");
-        PrivateScope.printScope();
+        PackagePrivateScope.printScope();
     }
 }
 
