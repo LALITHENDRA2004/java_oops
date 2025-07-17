@@ -1,7 +1,9 @@
 OOP - Object Oriented Programming 
 
-1. Object Oriented Programming is about creating objects that contain both
-   data and methods.
+1. OOPS stands for Object-Oriented Programming, is a programming 
+   paradigm that centers around the concept of "objects" rather than functions 
+   and logic. It's a way to structure code by bundling data (attributes) and 
+   the methods (functions) that operate on that data into objects. 
 2. It promotes reusability and readablility.
 3. It makes the program in a structured manner.
 4. Classes and Objects are main aspects in OOP.
