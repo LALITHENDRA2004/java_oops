@@ -1,0 +1,14 @@
+Encapsulation:
+
+1. The process of restring direct access to the sensitive data from the 
+   users is called Encapsulation. 
+2. It binds the attributes(properties) and methods(behaviours) into a 
+   single object.
+3. It is used for better code management. Which means we can modify the 
+   code without affecting the other parts of the code. (Validation)
+   Ex: balance += amount -> if(amount > 0) balance += amount;
+4. The process of Encapsulation is that 
+   - The variables in the class are declared private to prevent direct 
+     access. 
+   - public setter methods are used to set the values 
+   - public getter methods are used to access the values  
