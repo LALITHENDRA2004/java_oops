@@ -12,3 +12,6 @@ Encapsulation:
      access. 
    - public setter methods are used to set the values 
    - public getter methods are used to access the values  
+5. Encapsulation allows 
+   a. Data hiding (data is not visible directly)
+   b. Data integrity (only validated values can be assigned)
