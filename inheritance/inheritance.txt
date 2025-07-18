@@ -1,0 +1,26 @@
+Inheritance:
+
+1. Inheritance is a fundamental concept in Object Oriented Programming. 
+2. It is the process of inheriting features (variables and methods)
+   from one class to another class.
+3. The class which is being inherited is called Base class or Parent class and 
+   the class which inherits the Base class is called Derived class or Child 
+   class.
+4. Inheritance is used to promote Code reusability and readability. 
+5. Inheritance is used to achieve method overriding and polymorphism. 
+6. Types of Inheritance:
+   a. Single Inheritance
+      A sub class is derived from only one super class. 
+
+   b. Multilevel Inheritance
+      A sub class is derived from an already derived class from another class.
+
+   c. Hierarchical Inheritance
+      One class serves as a super class for more than one child class.
+
+   d. Multiple Inheritance
+      A class is derived from more than one class. (Only achieved through
+      interface) It is not supported with java classes.
+
+   e. Hybrid Inheritance
+      Combination of two or more of the above types.
