@@ -1,0 +1,25 @@
+Abstraction:
+
+1. The process of hiding the implementation details by showing only the 
+   necessary details is called Abstraction.
+2. It allows to focus on what an object does rather than how it does it.
+3. Abstraction can be implemented in two ways:
+   a. Abstract classes (Partial abstraction)
+      - abstract keyword is used to define an abstract class.
+      - an abstract class can contain abstract methods (declared using 
+        abstract keyword) and also concrete methods (normal methods)
+      - the subclass should implement all the abstract methods of the super 
+        class unless the subclass is also declared as abstract 
+      - we can not create an object for an abstract classes 
+      - the methods of the abstract class should be accessed via its sub-class  
+
+   b. Interfaces (100% abstraction) 
+      - an interface contains only method declarations 
+      - the class which implements the interface should define the methods
+      - the methods in an interface are public abstract by default 
+      - there is no need to declare them public abstract 
+      - an interface can extend another interface 
+4. We indicate a method is an overridden method using the annotation 
+   @override. 
+5. It makes the code readable.
+6. And also it makes sure that the method is actually overridden one or not.
